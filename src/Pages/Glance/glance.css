@@ -1,0 +1,225 @@
+
+@font-face {
+    font-family: 'muliregular';
+    src: url(../../assets/fonts/Muli_Font/Muli-Regular.ttf);
+}
+@font-face {
+    font-family: 'mulisemibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'mulibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Centurygothic';
+    src: url('../../assets/fonts/Century_Gothic_Font/GOTHICB.TTF')
+}
+
+
+.king> .footer_top
+{
+    min-height: 900px;
+}
+.flexRow{
+
+    display:grid;
+    grid-template-columns: 34% 66%;
+    grid-column-gap: 30px;
+    
+    justify-content: center;
+    width: 93%;
+    margin:50px auto 10px auto;
+
+}
+.glance_left{
+    width: 100%;
+   
+}
+.glance_left> span{
+    margin-top: -2px;
+    margin-bottom: 25px;
+    display: block;
+    width: 90px;
+    border:1px solid #ebebeb;
+}
+.glance_head{
+    font-family: Centurygothic !important;
+    color: #446beb;
+    font-size: 50px;
+    font-weight: bold;
+    width: 78%;
+    line-height: 1.1em;
+    margin-bottom: 30px;
+    
+    
+}
+.glance_subhead{
+    font-family: Centurygothic !important;
+    font-size: 20px;
+    font-weight: bold;
+    color: #58595b;
+    line-height: 1.19em;
+    
+}
+.glance_subhead span{
+    color:#446beb;
+    margin-left: 0;
+}
+.flexCard{
+    display: flex;
+    flex-direction: row;
+   width: 100%;
+
+}
+.flexCard img:last-child{
+    margin-top: 20px;
+    color:#446beb;
+    
+}
+.glancearrowicon{
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+.flexCard>div{
+    display:flex;
+    flex:1;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.flexCard>div>i{
+    margin-top: 90px;
+}
+
+.sec_section{
+    border-radius: 25px;
+background-color: #ffffff;
+box-shadow: 0px 0px 15.2px 2px rgba(167, 167, 167, 0.45);
+width: 95%;
+height:650px;
+margin-bottom: 20px;
+display: grid;
+grid-template-columns: 30% 70%;
+grid-column-gap: 10px;
+padding:30px 15px;
+margin-left: auto;
+margin-right: auto;
+
+padding-right: 50px;
+}
+.sec_section .list ul li{
+    list-style: none;
+    font-family: Centurygothic !important;
+font-size: 17px;
+font-weight: 700;
+line-height: 37px;
+color: #58595b;
+
+
+
+}
+.glance_para{
+    font-family: muliregular !important;
+color: #222222;
+font-size: 17px;
+font-weight: 400;
+line-height: 27px;
+text-align: justify;
+margin-left: 15px;
+}
+.glancesprinkles{
+    display:none;
+}
+@media only screen and (max-width: 992px) {
+    .flexRow{
+       display: grid;
+     grid-template-columns: auto;
+        width: 100%;
+     
+    }
+   .glancesprinkles{
+       display: block;
+       position: absolute;
+       width: 190px;
+
+   }
+   .glancesprinkles:first-child{
+       left:-120px;
+        top:60px;
+        transform: rotate(90deg);
+   }
+   .glancesprinkles:nth-child(2){
+       right:-120px;
+        top:170px;
+   }
+    .flexCard{
+        display: flex;
+    }
+    .flexCard > * >i:last-child{
+     
+        margin-top:30px;
+    }
+   
+    .sec_section{
+        grid-template-columns: auto;
+        height: auto;
+        padding-right: 15px;
+    }
+    .list{
+        display:none;
+    }
+    .glance_left{
+        width: 80%;
+        margin:20px auto 0px auto;
+    }
+    .glance_left>*{
+        width: 100%;
+        margin:0px auto 20px auto;
+    }
+    .glance_left p{
+        line-height: 1.2em;
+        margin-bottom: 50px;
+    }
+    .glance_head{
+        font-size: 41px;
+        line-height: 1.2em;
+        margin:0px auto 20px auto;
+    }
+    .glance_left >span{
+      
+        margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 15px;
+    }
+    .glance_para{
+        margin-left: 0px;
+        font-size:15px;
+    }
+    .flexCard>div>i{
+        margin-top: 60px;
+    }
+    .glancesubformmarginmob{
+        margin-top: -0px !important;
+    }
+    .king> .footer_top
+{
+    min-height: 1300px;
+}
+}
+
+
+
+@media only screen and (max-width: 360px) {
+    .glanceCard {
+        max-width: 103px !important;
+        height: 150px;
+    }
+    .glance_para {
+       
+        font-size: 14px !important;
+    }
+    
+    
+}

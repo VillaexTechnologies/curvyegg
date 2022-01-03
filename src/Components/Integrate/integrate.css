@@ -1,0 +1,148 @@
+
+
+@font-face {
+    font-family: 'muliregular';
+    src: url(../../assets/fonts/Muli_Font/Muli-Regular.ttf);
+}
+@font-face {
+    font-family: 'mulisemibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'mulibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Centurygothic';
+    src: url('../../assets/fonts/Century_Gothic_Font/GOTHICB.TTF')
+}
+
+@font-face {
+	font-family: 'binx';
+	src: url('../../assets/fonts/Binx.ttf')
+}
+
+
+.integrate_top{
+    width:100% ;
+    margin-top: 120px;
+    margin-bottom: 50px;
+
+   
+}
+
+.dsflex{
+    display:grid;
+    grid-template-columns: 70% 30%;
+  
+}
+
+
+.integrate_main_head{
+font-family: Centurygothic !important;
+color: #446beb;
+font-size: 50px;
+font-weight: 500;
+width: 50%;
+
+}
+
+.integrate_main_para{
+    font-family: mulibold !important;
+    width: 78%;
+color: #6b7c93;
+font-size: 17px;
+font-weight: 700;
+line-height: 27px;
+text-align: justify;
+margin:40px 0px 20px 0px;
+
+}
+.integrate_para{
+    font-family: mulibold !important;
+font-size: 17px;
+font-weight: 700;
+color: #6b7c93;
+
+}
+.integrate_para span{
+    color:#446beb;
+    margin-left: 0;
+}
+.integrate_img{
+    margin-top: -160px;
+}
+.sec_half{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -160px;
+}
+
+
+@media only screen and (max-width: 992px) {
+    .dsflex{
+        
+        overflow:hidden;
+        grid-template-columns: 60% 40%;
+        grid-gap: 15px;
+    }
+
+    .integrate_main_head{
+        width: 99%;
+        font-size: 32px!important;
+        text-align: center;
+        margin-top:80px;
+    }
+   .sec_half{
+       width: 100%;
+       margin-top: 30px;
+   }
+    .integrate_img{
+        margin-top: 0;
+        width: 95%;
+    }
+    
+    /* .integrate_main_head{
+        font-family: gothic;
+        color: #446beb;
+        font-size: 34px;
+        font-weight: bold;
+        width: 100%;
+        
+        }
+         */
+        .integrate_main_para{
+           
+            width: 93%;
+        color: #6b7c93;
+        font-size: 17px;
+        font-weight: 700;
+        line-height: 27px;
+        text-align: left;
+        margin:40px 0px 20px 0px;
+        
+        }
+   .first_half{
+       width: 95%;
+       margin-left: auto;
+   }
+   .integrate_para {
+    font-family: mulibold !important;
+    font-size: 17px;
+    font-weight: 700;
+    color: #6b7c93;
+    width: 116%;
+}
+}
+
+
+
+@media only screen and (max-width: 360px) {
+
+    .integrate_main_head{
+        font-size: 29px !important;
+    }
+
+}

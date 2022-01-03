@@ -1,0 +1,216 @@
+
+
+@font-face {
+    font-family: 'muliregular';
+    src: url(../../assets/fonts/Muli_Font/Muli-Regular.ttf);
+}
+@font-face {
+    font-family: 'mulisemibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'mulibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Centurygothic';
+    src: url('../../assets/fonts/Century_Gothic_Font/GOTHICB.TTF')
+}
+
+
+
+@font-face {
+    font-family: binx;
+    src: url(../WeHave/Binx.ttf);
+}
+
+.subform_top{
+    width:100%;
+    height:500px;
+}
+
+.subform_top>img{
+    position: absolute;
+    right:180px;
+    top:30px;
+    z-index: 10;
+
+}
+.div_center{
+    width:80%;
+    height:auto;
+    padding: 1%;
+    margin:auto;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 10.68px 0.8px rgba(0,0,0,0.2);
+    position:relative;
+    z-index: 1;
+}
+.contain{
+    width:70%;
+    margin:0 auto;
+}
+.subform_main_head{
+    font-family: Centurygothic !important;
+color: #3b4657;
+font-size: 50px;
+font-weight: 600;
+line-height: 55px;
+text-align: center;
+padding-top: 80px;
+
+}
+.subform__main_para{
+    font-family: muliregular !important;
+color: #6b7c93;
+font-size: 17.5px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+margin:30px 0 20px 0;
+
+
+}
+.form_div{
+    width: 65%;
+    margin:30px auto;
+   
+}
+.inputbox{
+    border-radius: 3px;
+border-width: 1px;
+border-color: #c5c5c5;
+border-style: solid;
+/* background-color: #white; */
+padding:7px 10px;
+width: 300px;
+margin-right: 10px;
+}
+.inputbox::placeholder{
+    color:#c5c5c5
+}
+
+.inputBtn{
+    border-radius: 2px;
+background-color: #446beb;
+    padding:7px 25px;
+    border:0;
+    color:white;
+    font-family: muliregular !important;
+}
+.need{
+    text-align: center;
+    margin-top: 20px;;
+    font-weight: bold;
+    font-family: mulisemibold !important;
+}
+.need span{
+    color:#446beb;
+    margin-left: 0;
+}
+
+.forms_bottom
+{
+    align-items: center;
+    justify-content:center;
+}
+.forms_bottom input
+{
+    flex-grow: 3;
+}
+.forms_bottom button
+{
+    flex-grow: 1;
+   
+}
+
+@media only screen and (max-width: 992px) {
+
+.subform_top{
+    margin-top: -230px;
+}
+.div_center{
+    width:  100%;
+    height:100%;
+    margin-top: 6px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 0 0 rgba(0,0,0,0);
+    
+}
+.div_center>img{
+    display: none;
+}
+.contain{
+    width:90%;
+    margin:0 auto;
+}
+.subform_main_head{
+    font-family: CenturyGothic;
+color: #3b4657;
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+text-align: center;
+padding-top: 80px;
+
+}
+.subform__main_para{
+    font-family: 'Mulish', sans-serif;
+color: #6b7c93;
+font-size: 15.5px;
+font-weight: 400;
+line-height: 27px;
+text-align: center;
+margin:30px 0 20px 0;
+
+
+}
+.form_div{
+    width: 90%;
+    margin:25px auto;
+   
+}
+.inputbox{
+    border-radius: 3px;
+border-width: 1px;
+border-color: #c5c5c5;
+border-style: solid;
+background-color: #fff;
+padding:7px 15px;
+margin-right: 10px;
+width: 170px;
+}
+.inputbox:focus{
+    outline:none !important;
+}
+
+.inputBtn{
+    border-radius: 2px;
+background-color: #446beb;
+    text-align: center;
+    padding:10px 20px;
+    font-size: 13px;
+}
+.need{
+    text-align: center;
+    margin-top: 20px;;
+}
+
+
+}
+
+@media only screen and (max-width: 360px) {
+.subform_main_head{
+    font-size: 28px !important;
+}
+.subform__main_para{
+    font-size: 13.5px !important;
+}
+.inputBtn {
+   
+    padding: 11.5px 20px;
+    font-size: 11px;
+}
+
+}

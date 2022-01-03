@@ -1,0 +1,88 @@
+.c-form{
+    
+    font-family: muliRegular;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background: #fff;
+    margin-top:10px;
+    margin-left: 100px;
+    padding: 20px  0;
+    position: relative;
+    min-height: 800px;
+    padding: 20px 0;
+    width:550px;
+    border-radius: 25px;
+box-shadow: 0px 0px 25.2px 4.8px rgba(167, 167, 167, 0.25);
+   
+}
+
+.signup_p_special {
+    width: 100%; 
+    text-align: center; 
+    /* border-bottom: 1px solid rgb(75, 75, 255);  */
+    border-bottom: 1px solid #446beb; 
+    line-height: 0.1em;
+    margin: 50px auto 50px; 
+    font-family: muliRegular!important;
+ } 
+ 
+ .signup_p_special span { 
+    background:white;
+    color:#446beb;
+     padding:0 10px; 
+     font-family: muliRegular!important;
+     font-size: 18px;
+ }
+._form-part{
+    text-align: center;
+}
+.f1{
+    margin-top: 55px;
+}
+.btn-demo{
+    font-size: 20px;
+    border-radius: 4px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #5087c7;
+    font-family: "segoe_light";
+    border:none;
+}
+
+
+@media screen and (max-width: 992px) {
+.c-form{
+    width: 100%;
+    margin:50px auto;
+    /* margin-left: -10px !important; */
+    margin-left: 1px;
+    min-height: 735px;
+  
+
+}
+.support_grid_margin{
+    padding-left:15px !important;
+}
+.text-area{
+   width: 94%;
+    margin-left:15px;
+}
+
+._form-part{
+ margin-left: -130px;;
+}
+
+
+
+}
+
+@media screen and (min-width: 500px){
+    .text-area{
+        width:375px;
+        margin-left:30px;
+    }
+}
+

@@ -1,0 +1,352 @@
+
+@font-face {
+    font-family: 'muliregular';
+    src: url(../../assets/fonts/Muli_Font/Muli-Regular.ttf);
+}
+@font-face {
+    font-family: 'mulisemibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'mulibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Centurygothic';
+    src: url('../../assets/fonts/Century_Gothic_Font/GOTHICB.TTF')
+}
+
+/* @font-face {
+    font-family: 'gothic';
+	src: url('../../assets/fonts/SansSerifFLF-Demibold.otf')
+} */
+
+    /* @font-face {
+        font-family: 'muliRegular';
+        src: url(../../assets/fonts/muli/Muli-Regular.ttf);
+    } */
+
+.eggLogo{
+    width:58px; height:86px;
+}
+.urvyegg{
+font-family: Centurygothic !important;
+color: #446beb;
+font-size: 4.4em;
+font-weight: bold;
+
+
+}
+.subHeading{
+    font-family: Centurygothic !important;
+    letter-spacing: 0.01em;
+font-weight: 600;
+color: #3c4658;
+font-size: 2.30em;
+margin:0px 0px 25px 0px;
+
+}
+.paragraph{
+    font-family:muliregular !important;
+font-size: 1.23em;
+line-height: 26px;
+color: #6b7c93;
+width: 88%;
+font-weight: 500;
+text-align: justify;
+
+
+}
+
+.borders, .borders *{
+    border:1px solid black
+}
+.showcase_main{
+    display: grid;
+    grid-template-columns: 55% auto;
+    width:100%;
+    min-height:480px;
+   
+}
+.left_section{
+  
+  /* min-height: 480px; */
+  height: 410px;
+  padding:20px;
+    
+}
+.right_section{
+    
+    z-index: 3;
+    margin: auto;
+
+}
+.lady{
+    margin-top:65px;margin-left:25px;
+    padding-left: 50px;
+}
+
+.showcase_bottom{
+    position:absolute;
+    bottom: 1px;
+    left:0px;
+}
+.mob_sprinkle{
+    display:none;
+}
+.triangle{
+    display:none;
+}
+.chaticonhideonmob{
+    display:block;
+}
+@media only screen and (max-width: 992px) {
+
+.showcase_main{
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    margin:0 auto;
+    margin-top: 70px;
+    text-align: center;
+
+}
+.mob_sprinkle{
+    display:block;
+    width:140px;
+    position:absolute
+}
+.mob_sprinkle:first-child{
+    left:-75px;
+}
+.mob_sprinkle:nth-child(2){
+    right:-75px;
+    top:150px;
+}
+/* .urvyegg{
+    
+    font-size: 2.7em;
+    font-weight: 700;
+    
+    } */
+
+    .eggLogo{
+        width:48px; 
+        height: 80px;
+    }
+    .urvyegg{
+
+    color: #446beb;
+    font-size: 4.2em;
+    font-weight: bold;
+    
+    
+    }
+    .subHeading{
+        
+    font-size: 1.57em;
+    font-weight: bold;
+    margin:100px 0px 20px;
+    
+    }
+    .paragraph{
+      
+    width: 100%;
+    margin:0 auto;
+    font-size: 0.85em;
+    margin-bottom: 50px;
+    text-align: center;
+    
+    
+    
+    }
+.left_section{
+    width: 100%;
+    height:fit-content;
+    text-align: center;
+    
+    align-items:flex-start
+}
+.left_section div{
+    justify-content: center;
+}
+
+.lady{
+   
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 0px !important;
+
+}
+.showcase_bottom{
+    margin-left: -480px;
+    width:250%;
+}
+.showcase_bottom{
+    display: none;
+}
+.chaticonhideonmob{
+    display:none;
+}
+/* .triangle {
+    display:block;
+	position: absolute;
+	background-color: #e0ecfc;
+	text-align:  left;
+    bottom:0;
+    margin-left:0px;
+    z-index: -10;
+}
+.triangle:before,
+.triangle:after {
+	content: '';
+	position: absolute;
+	background-color: inherit;
+}
+.triangle,
+.triangle:before,
+.triangle:after {
+	width:  18em;
+	height: 18em;
+	border-top-right-radius:80%;
+}
+.triangle:before {
+	width:  18em;
+	height: 18em;
+	border-top-right-radius: 50%;
+    border:1px solid red;
+
+
+}
+.triangle:after {
+	width:  18em;
+	height: 18em;
+	border-top-right-radius: 0%;
+    border:1px solid red;
+}
+.triangle {
+	transform: rotate(-60deg) skewX(-30deg) scale(1,.866);
+}
+.triangle:before {
+	transform: rotate(-135deg) skewX(-45deg) scale(1.414,.707) translate(0,-50%);
+}
+.triangle:after {
+	transform: rotate(135deg) skewY(-45deg) scale(.707,1.414) translate(50%);
+} */
+
+.triangle{
+    display:block;
+    position: absolute;
+    bottom:0;
+    margin-left:-75px;
+    z-index: -10;
+    width: 103%;
+}
+.triangle img{
+    display:absolute;
+    bottom:0;
+}
+}
+@media only screen and (max-width: 360px) {
+.chaticonhideonmob{
+    display:none;
+}
+    .urvyegg{
+        font-size: 3.6em;
+    }
+    .subHeading{
+        font-size: 1.3em;
+    }
+    .lady{
+        width: 70% !important;
+        padding-left: 0px !important;
+    }
+    .triangle{
+        display:block;
+        position: absolute;
+        bottom:0;
+        margin-left:-50px;
+    
+    }
+    .left_child_head{
+        font-size: 38px !important;
+    }
+    .dropline{
+        left:40px !important;
+    }
+     
+    .chat{
+        height:447px !important
+    }
+    .right{
+        margin:0px 50pc -110px 22px !important;
+    }
+    .left_link{
+        padding:20px 17px !important;
+    }
+    .left_sec_para{
+        left:22% !important;
+    }
+    .main_left_img_inner_1 {
+        width: 80% !important;
+        height: 258px !important;
+    }
+    .main_left_img_inner_2 {
+        width: 82% !important;
+        height: 255px !important;
+        }
+        .main_left_img_inner_3 {
+            width: 100% !important;
+            height: 100% !important;
+        }
+        .main_say_head {
+            font-size:2.3em !important
+        }
+        .whycurvy_main_head {
+            font-size: 38px !important;
+        } 
+        .whycards_main {
+            height: 215px !important;
+            max-width: 155px !important;
+        }
+        .index_whycurvy_cards_main{
+            width: 100%;
+          margin-top: 30px;
+            margin-left: -50px;
+            height: 600px;
+            margin-bottom: 10px;
+        }
+        .index_whycurvy_cards_main>div:nth-child(1){
+                top:130px;
+                left:40px;
+        }
+        .index_whycurvy_cards_main>div:nth-child(2){
+            top:360px !important;
+            left:40px;
+        }
+        .index_whycurvy_cards_main>div:nth-child(3){
+            left:210px !important;
+            top:30px !important;
+            width: 100%;
+        
+        }
+        .index_whycurvy_cards_main>div:nth-child(4){
+        
+            left:210px !important;
+            top:260px !important;
+            width: 100%;
+        }
+        
+        .index_whycurvy_cards_main>div:nth-child(4) >div>p:first-child{
+            font-size: 24px !important;
+        }
+        .whycards_main p:last-child{
+            font-size: 12px !important;
+        }
+       
+       
+       
+        
+     
+}

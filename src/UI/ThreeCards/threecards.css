@@ -1,0 +1,14 @@
+.threecardsmain{
+    display: flex;
+    width: 100%;
+}
+.threecardsmain > div{
+        width:33.3%;
+        opacity: 1;
+        transition: width 0.3s linear ,opacity .3s linear .3s;
+
+        margin-bottom: 40px;
+      
+           
+    
+}  

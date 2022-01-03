@@ -1,0 +1,55 @@
+
+  @font-face {
+    font-family: 'muliregular';
+    src: url(../../assets/fonts/Muli_Font/Muli-Regular.ttf);
+}
+@font-face {
+    font-family: 'mulisemibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'mulibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Centurygothic';
+    src: url('../../assets/fonts/Century_Gothic_Font/GOTHICB.TTF')
+}
+
+
+.blog_card_head{
+    font-family: mulibold !important;
+    font-size: 17px !important;
+    color:#6b7c93;
+    font-weight: bold;
+    
+}
+.blog_card_para{
+    font-family: mulisemibold !important;
+    font-size: 22px !important;
+    color:black !important;
+    font-weight: bold !important;
+    margin-bottom: 10px !important;
+}
+.blog_card_text{
+    font-family: muliregular !important;
+    font-size: 17px !important;
+    color:black !important;
+
+}
+@media only screen and (max-width: 992px) {
+    .blog_card_head{
+        font-size: 12.18px !important;
+        font-weight: bold !important;
+    }
+    .blog_card_para{
+        font-size: 15.76px !important;
+        line-height: 1.3em !important;
+    }
+    .blog_card_text{
+        margin-top: 10px !important;
+        width: 180px;
+        font-size: 12px !important;
+    }
+}

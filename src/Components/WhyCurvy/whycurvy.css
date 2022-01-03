@@ -1,0 +1,215 @@
+
+
+@font-face {
+    font-family: 'muliregular';
+    src: url(../../assets/fonts/Muli_Font/Muli-Regular.ttf);
+}
+@font-face {
+    font-family: 'mulisemibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'mulibold';
+    src: url(../../assets/fonts/Muli_Font/Muli-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Centurygothic';
+    src: url('../../assets/fonts/Century_Gothic_Font/GOTHICB.TTF')
+}
+
+@font-face {
+	font-family: 'binx';
+	src: url('../../assets/fonts/Binx.ttf')
+}
+
+.whycurvy_top{
+    width: 100%;
+    min-height: 893px;
+    position: relative;
+    margin-top: 50px;
+    
+   
+  
+}
+.lady_back{
+    display:none;
+}
+.whycurvy_main_head{
+    font-family: Centurygothic !important;
+font-size: 90.06px;
+font-weight: 700;
+color: #446beb;
+letter-spacing: 0.06em!important;
+margin-bottom: 30px;
+
+
+}
+
+.main_para{
+  
+    font-family: muliregular !important;
+color: #58595b;
+font-size: 16.07px;
+
+line-height: 25.517px;
+text-align: justify;
+
+
+}
+.top_clear{
+    margin-left:60px;margin-top:-90px;
+}
+
+.nopurpose >div{
+    font-family: mulisemibold !important;
+    color: #446beb;
+    font-size: 22px;
+    font-weight: 600;
+    height: fit-content;
+    margin-bottom: 10px;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+    
+}
+.nopurpose >div:last-child{
+    border-bottom: none;
+}
+.nopurpose >p{
+    margin-top: 20px;
+   
+}
+.nopurpose p:last-child{
+    border:0;
+}
+.showtab{
+    
+    max-height: 150px;
+    
+    transition:all 0.3s ease-in-out;
+
+ 
+}
+.hidetab{
+  
+    max-height: 0;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.index_whycurvy_cards_main{
+    
+    width: 100%!important;
+    position: relative;
+    margin-left: 30px;
+}
+.index_whycurvy_cards_main >div{
+    position: absolute;
+    left:50px;
+    top:50px;
+}
+.index_whycurvy_cards_main>div:nth-child(1){
+
+}
+.index_whycurvy_cards_main>div:nth-child(2){
+    top:355px;
+    width: 100%;
+}
+.index_whycurvy_cards_main>div:nth-child(3){
+    left:315px;
+    top:-80px;
+    width: 100%;
+
+}
+.index_whycurvy_cards_main>div:nth-child(4){
+
+    left:315px;
+    top:225px;
+    width: 100%;
+}
+
+.index_whycurvy_cards_main>div:nth-child(4) >div>p:first-child{
+    font-size: 36px;
+}
+@media only screen and (max-width: 992px) {
+    
+    .whycurvy_top{
+        width:100%;
+        margin:0 auto;
+       }
+       .index_whycurvy_cards_main{
+           margin-left: -41px !important;
+       }
+    .lady_back{
+        display:block;
+        position: absolute;
+        bottom:0;
+        width: 100%;
+        z-index: -1;
+    }
+   
+    .whycurvy_top>img{
+        display:none;
+    }
+   
+    .top_clear{
+   
+        margin:80px auto;
+      
+    }
+    .dflex{
+        display:flex;
+
+    }
+    .whycurvy_main_head{
+        font-size: 42px;
+        margin-bottom: 20px;
+    }
+    .main_subhead{
+        font-size: 24px;
+    }
+    .main_para{
+        font-size: 14px;
+       
+    }
+    .tab_main > p{
+        font-size: 24px;
+        
+    }
+    .nopurpose .tab_main >div p{
+      
+        font-size: 14px;
+    }
+    .index_whycurvy_cards_main{
+        width: 100%;
+      margin-top: 30px;
+        margin-left: -50px;
+        height: 600px;
+        margin-bottom: 10px;
+    }
+    .index_whycurvy_cards_main>div:nth-child(1){
+            top:130px;
+            left:40px;
+    }
+    .index_whycurvy_cards_main>div:nth-child(2){
+        top:375px;
+        left:40px;
+    }
+    .index_whycurvy_cards_main>div:nth-child(3){
+        left:235px;
+        top:0px;
+        width: 100%;
+    
+    }
+    .index_whycurvy_cards_main>div:nth-child(4){
+    
+        left:235px;
+        top:245px;
+        width: 100%;
+    }
+    
+    .index_whycurvy_cards_main>div:nth-child(4) >div>p:first-child{
+        font-size: 36px;
+    }
+   
+}
