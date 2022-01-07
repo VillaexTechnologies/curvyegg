@@ -110,7 +110,7 @@ function Termpolicy() {
             }
        
     }
-    vakanda();
+ 
     return (
         <div>
           

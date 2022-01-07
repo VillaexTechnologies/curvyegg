@@ -117,7 +117,7 @@ function Header(props) {
         <a href={`${baseURL}/#aboutcurvy`} className={!props.color? "nav_text nav_text_grey":"nav_text nav_text_white"}  style={{marginLeft:'-5px'}}>About</a>
         <a href={`${baseURL}/#whycurvy`} className={!props.color? "nav_text nav_text_grey":"nav_text nav_text_white"} >Why Curvy</a>
         <a href={`${baseURL}/#solution`} className={!props.color? "nav_text nav_text_grey":"nav_text nav_text_white"} >Solutions</a>
-        <a href="/glance" className={!props.color? "nav_text nav_text_grey":"nav_text nav_text_white"} >Features</a>
+        <Link to="/glance" className={!props.color? "nav_text nav_text_grey":"nav_text nav_text_white"} >Features</Link>
     
       </Nav>
       <Nav className="mr-0 mob_view">
@@ -160,7 +160,7 @@ function Header(props) {
        
                 </li>
                 <li  className='nav-text' >
-                <a href="/glance" className='nav-text' ><span className='title'>Features</span></a>
+                <Link to="/glance" className='nav-text' ><span className='title'>Features</span></Link>
     
                 </li>
                 <li  className='nav-text' >

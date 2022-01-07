@@ -36,6 +36,7 @@
   transition: 850ms;
   border-right: 10px solid #fff;
   overflow-x: hidden;
+  z-index: 100;
 }
 
 .nav-menu.active {
