@@ -202,5 +202,9 @@ margin-right: 50px;
     .left_link {
         padding: 20px 8px !important;
     }
+    .left_sec_para {
+        bottom: -16px;
+        left: 22.5% !important;
+    }
 
 }

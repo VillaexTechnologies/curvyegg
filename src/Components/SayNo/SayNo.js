@@ -21,13 +21,13 @@ function SayNo() {
     const [data,setData] = useState({
         sales : {
             img:analytics,
-            text:'Utilize our chat agents! Give them knowledge about your product so they keep giving you the best quality sales’ service <span>24/7</span>, with their well-cultivated customer handling expertise.'
+            text:'Utilize our chat agents! Give them knowledge about your product so they keep giving you the best quality sales’ service 24/7, with their well-cultivated customer handling expertise.'
             ,head:'Say No to More Sales Staff'
         },
         research:{
             img:research,
             text:'t is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using '
-            ,head:'This is the second heading ENJOY'
+            ,head:'This is the second heading'
         },
         data:{
             img:dashboard,
@@ -77,7 +77,7 @@ function SayNo() {
                                 initial={{opacity:0,
                                      
                                     }} />:null}
-                                {currData.head === 'This is the second heading ENJOY'? <motion.img className="main_left_img_inner_3" src={research}  
+                                {currData.head === 'This is the second heading'? <motion.img className="main_left_img_inner_3" src={research}  
                            animate={{
                             opacity:1,
                            
@@ -111,7 +111,7 @@ function SayNo() {
                             <h3 className="main_say_head">{currData.head}</h3>
                             <p className="main_say_para">{currData.text}</p>
                             </motion.div> :null}
-                            {currData.head === 'This is the second heading ENJOY'? <motion.div
+                            {currData.head === 'This is the second heading'? <motion.div
                                  animate={{
                                     opacity:1,
                                
@@ -137,7 +137,7 @@ function SayNo() {
                             </motion.div> :null}
                             <div className="main_btn_grp">
                                 <button className={currData.head === 'Say No to More Sales Staff'?"button_focus":null}  onClick={()=>saleBtnworking()}>Sales Staff</button>
-                                <button className={currData.head === 'This is the second heading ENJOY'?"button_focus":null}  onClick={()=>researchBtnworking()}>Research</button>
+                                <button className={currData.head === 'This is the second heading'?"button_focus":null}  onClick={()=>researchBtnworking()}>Research</button>
                                 <button className={currData.head === 'This is the third heading'?"button_focus":null}  onClick={()=>dataBtnworking()}>Data</button>
                             </div>
                         </div>
